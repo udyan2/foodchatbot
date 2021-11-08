@@ -1,0 +1,32 @@
+{"intents":
+[
+  {
+    "tag": "greetings",
+    "patterns": ["hello","hey","hi","good day","sup","there?"],
+    "responses": ["Hello there!","What can I do for you?"]
+  },
+  {
+    "tag": "orderfood",
+    "patterns": ["I want to order food", "Order something for me","order breakfast","order lunch","order dinner","order snacks", "place an order"],
+    "responses": ["I will place an order for you, what would you like to order?","What should I order for you?"]
+  },
+  {
+    "tag": "endbot",
+    "patterns": ["Bye","thanks, that's it","that's it","See you later","Bye","Goodbye","I am leaving","Have a good day","bye","adios"],
+    "responses": ["Thank you for ordering with us. Have a great day!"]
+  },
+  {
+    "tag": "menu",
+    "patterns": ["What is your menu","what do you offer","tell me the menu","show me the menu"],
+    "responses": ["Our Menu: \n1. Sandwich (Rs. 150), \n2. Burger (Rs. 178) \n3. Pepsi (Rs. 60)"]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["What are your opening hours","What are your hours","When are you open","What are your working hours"],
+    "responses": ["We are open 24/7"]
+  }
+
+]
+
+
+}
