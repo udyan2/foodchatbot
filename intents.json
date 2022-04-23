@@ -2,28 +2,40 @@
 [
   {
     "tag": "greetings",
-    "patterns": ["hello","hey","hi","good day","sup","there?"],
-    "responses": ["Hello there!","What can I do for you?"]
+    "patterns": ["hello","hey","hi","good day","sup","there?","it feels nice to talk to you","what are you doing today","i feel so hungry today"],
+    "responses": ["Hello there!","What can I do for you?","How was your day?","Are you feeling hungry today?","How was your day like?"]
   },
   {
     "tag": "orderfood",
-    "patterns": ["I want to order food", "Order something for me","order breakfast","order lunch","order dinner","order snacks", "place an order"],
+    "patterns": ["i want to order food", "order something for me","order breakfast","order lunch","order dinner","order snacks", "place an order", "place the order for me"],
     "responses": ["I will place an order for you, what would you like to order?","What should I order for you?"]
   },
   {
     "tag": "endbot",
-    "patterns": ["Bye","thanks, that's it","that's it","See you later","Bye","Goodbye","I am leaving","Have a good day","bye","adios"],
+    "patterns": ["Bye","thanks, that's it","that's it","See you later","Bye","Goodbye","I am leaving","Have a good day","bye","adios","have a great day"],
     "responses": ["Thank you for ordering with us. Have a great day!"]
   },
   {
-    "tag": "menu",
-    "patterns": ["What is your menu","what do you offer","tell me the menu","show me the menu"],
-    "responses": ["Our Menu: \n1. Sandwich (Rs. 150), \n2. Burger (Rs. 178) \n3. Pepsi (Rs. 60)"]
+    "tag": "chinesemenu",
+    "patterns": ["What is your menu for chinese","what do you offer in chinese","tell me the menu for chinese food","show me the chinese menu","I want to eat something chinese","I feel like eating chinese food","Order something chinese for me","order Noodles for me","i want to order momos","i feel like ordering momos","i want to eat Chilli Potato","what is there in chinese today"],
+    "responses": ["Indian Menu: \n1. Hakka Noodles (Rs. 150), \n2. Chilli Potato (Rs. 120), \n3. Tandoori Momos (Rs. 180), \n4. Afghani Momos (Rs. 180), \n5. Amritsari Naan, \n6. Steamed Momos (Rs. 80)"]
   },
   {
     "tag": "hours",
     "patterns": ["What are your opening hours","What are your hours","When are you open","What are your working hours"],
     "responses": ["We are open 24/7"]
+  },
+  
+  {
+    "tag": "modifyitem",
+    "patterns": ["I want to remove an item from my order","remove the noodles","remove the chilli potatoes from the order","i want to modify my order","modify an item","modify one item for me","modify my order","create a modification in my order","i want to remove an item"],
+    "responses": ["Which item do you want to remove?","What item should i remove for you?","Please specify the item to be removed","Please mention the item you want to remove","What food item should I remove for you?","What food item do you want me to remove"]
+  },
+  
+  {
+    "tag": "indianmenu",
+    "patterns": ["What is your menu for indian","what do you offer in indian","tell me the menu for indian food","show me the indian menu","I want to eat something indian","I feel like eating indian food","Order something indian for me","order paneer for me","I want to order kadhai paneer","i feel like ordering malai paneer","i want to eat naan","what is there in indian food today"],
+    "responses": ["Indian Menu: \n1. Kadhai Paneer (Rs. 250), \n2. Malai Paneer (Rs. 240), \n3. Butter Naan (Rs. 40), \n4. Lachcha Parantha (Rs. 30), \n5. Amritsari Naan"]
   }
 
 ]

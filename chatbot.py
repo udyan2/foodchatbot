@@ -10,7 +10,7 @@ lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
-model = load_model('food_chatbot.h5')
+model = load_model('food_chatbot2.h5')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
@@ -46,7 +46,7 @@ def get_response(intents_list, intents_json):
                 break
     return result
 
-print("Welcome to Shahjee's")
+print("Welcome to the Food Ordering System")
 
 while True:
     msg = input("")
